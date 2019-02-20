@@ -4,7 +4,9 @@ exports[`renders correctly 1`] = `
 <div
   className="nav-bar"
 >
-  <label>
+  <label
+    className="title"
+  >
     Synergist Test Project 
   </label>
   <button

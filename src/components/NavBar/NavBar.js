@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 
 const NavBar = (props) => (
   <div className={styles["nav-bar"]}>
-    <label>Synergist Test Project </label>
+    <label className={styles["title"]}>Synergist Test Project </label>
     <Button
       label={"Add Map"}
       className={styles["link"]}

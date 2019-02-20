@@ -1,10 +1,12 @@
 import React from "react";
 import { GoogleApiWrapper, Map } from "google-maps-react";
+import styles from './styles.module.css';
 
 const MapContainer = (props) => {
   const { google } = props;
   return (
     <Map
+      className={styles['map-container']}
       google={google}
       initialCenter={{
         lat: 52.520008,

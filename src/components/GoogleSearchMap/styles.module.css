@@ -1,6 +1,7 @@
 .google-search-map{
     position: relative;
     font-size: 14px;
+    padding: 20px;
 }
 .search-box {
     position: relative;
