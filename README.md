@@ -11,3 +11,5 @@ This project lets you search multiple places on google maps.
 `yarn test` : Run the test of the application.
 
 `yarn build` : Generates a production ready build.
+
+`yarn deploy` : Deploys the current state of the project to gh pages.
