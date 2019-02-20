@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has label 1`] = `
+<button
+  className="button"
+>
+  test label
+</button>
+`;
+
+exports[`renders correctly 1`] = `
+<button
+  className="button"
+/>
+`;

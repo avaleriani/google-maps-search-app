@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="google-search-map"
+>
+  <div>
+    Loading Map...
+  </div>
+  <input
+    className="search-box"
+    onChange={[Function]}
+    placeholder="Where do you want to go?"
+    type="text"
+  />
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Search
+  </button>
+</div>
+`;
