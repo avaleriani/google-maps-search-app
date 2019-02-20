@@ -1,14 +1,14 @@
 import React from "react";
 import { GoogleApiWrapper, Map } from "google-maps-react";
 
-const MapComponent = (props) => {
+const MapContainer = (props) => {
   const { google } = props;
   return (
     <Map
       google={google}
       initialCenter={{
-        lat: 100,
-        lng: 100
+        lat: 52.520008,
+        lng: 13.404954
       }}
       center={{
         lat: props.lat,
@@ -31,4 +31,4 @@ const LoadingContainer = () => (
 export default GoogleApiWrapper({
   apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
   LoadingContainer: LoadingContainer
-})(MapComponent);
+})(MapContainer);

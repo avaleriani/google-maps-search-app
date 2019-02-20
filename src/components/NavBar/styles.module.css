@@ -5,24 +5,15 @@
   display: flex;
   align-items: flex-start;
   list-style: none;
-  margin: 0;
+  margin: 0 0 50px 0;
   padding: 0;
-  margin-bottom: 50px;
 }
 
 .link {
   display: block;
   padding: 20px;
-  background: #ecf5f5;
+  background: #888888;
   color: black;
   z-index: 1;
   text-decoration: none;
-}
-
-.active-link {
-  background: #7e9494;
-  color: white;
-  box-shadow: none;
-  z-index: 0;
-  border-bottom: none;
 }
