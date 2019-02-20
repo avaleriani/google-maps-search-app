@@ -10,8 +10,8 @@ class GoogleSearchComponent extends React.Component {
     super();
     Geocode.setApiKey(process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
     this.state = {
-      lat: 0,
-      lng: 0,
+      lat: 52.520008,
+      lng: 13.404954,
       location: null
     };
     this.search = this.search.bind(this);

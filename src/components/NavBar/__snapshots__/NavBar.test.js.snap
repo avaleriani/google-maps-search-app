@@ -7,7 +7,7 @@ exports[`renders correctly 1`] = `
   <label
     className="title"
   >
-    Synergist Test Project 
+    Google Maps Search App 
   </label>
   <button
     className="link"

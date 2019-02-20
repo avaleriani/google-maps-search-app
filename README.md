@@ -1,6 +1,6 @@
-# Synergist test
+# Google Maps Search App
 
-This project lets you search a place in google maps.
+This project lets you search multiple places on google maps.
 
 ### Commands
 
