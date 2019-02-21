@@ -13,7 +13,6 @@ export default class Home extends React.Component {
   }
 
   addMap() {
-    console.log(this.state.mapQuantity)
     this.setState(prevState => {
       return { mapQuantity: prevState.mapQuantity + 1 }
     });

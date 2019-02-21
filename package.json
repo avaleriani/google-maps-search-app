@@ -2,7 +2,7 @@
     "name": "google-maps-search-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://avaleriani.github.io/google-maps-search-app",
+    "homepage": "https://avaleriani.github.io/google-maps-search-app/",
     "dependencies": {
         "google-maps-react": "^2.0.2",
         "react": "^16.8.1",
@@ -16,7 +16,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "npm run build",
+        "predeploy": "yarn build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
